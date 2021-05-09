@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/dept8001
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    dbcp2:
+      min-idle: 1
+      max-idle: 1
+      max-wait-millis: 3000
+      max-total: 5
+      initial-size: 3
+  jpa:
+    show-sql: true
+server:
+  port: 8001

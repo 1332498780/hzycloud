@@ -11,6 +11,11 @@
   <modules>
     <module>hzycloud-api</module>
     <module>hzycloud-dept-service-8001</module>
+    <module>hzycloud-dept-service-swagger</module>
+    <module>hzycloud-consumer-resttemplate</module>
+    <module>hzycloud-consumer-ribbon</module>
+      <module>hzycloud-security</module>
+    <module>hzycloud-eureka-7001</module>
   </modules>
 
   <name>hzycloud</name>
@@ -26,15 +31,11 @@
     <mysql-connector-java.version>8.0.24</mysql-connector-java.version>
     <druid.version>1.2.3</druid.version>
     <hzycloud-api.version>1.0-SNAPSHOT</hzycloud-api.version>
+    <hzycloud-security.version>1.0-SNAPSHOT</hzycloud-security.version>
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
+
   </dependencies>
 
   <dependencyManagement>
@@ -64,9 +65,40 @@
         <artifactId>druid</artifactId>
         <version>${druid.version}</version>
       </dependency>
+
+      <dependency>
+        <groupId>cn.hzy.demo</groupId>
+        <artifactId>hzycloud-security</artifactId>
+        <version>${hzycloud-security.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>cn.hzy.demo</groupId>
+        <artifactId>hzycloud-api</artifactId>
+        <version>${hzycloud-api.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
-  <build>
 
+  <build>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <includes>
+          <include>**/*.yml</include>
+        </includes>
+        <filtering>true</filtering>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <configuration>
+          <delimiters>
+            <delimiter>$</delimiter>
+          </delimiters>
+        </configuration>
+      </plugin>
+    </plugins>
   </build>
 </project>

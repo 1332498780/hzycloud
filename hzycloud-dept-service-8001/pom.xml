@@ -19,8 +19,12 @@
         <dependency>
             <groupId>cn.hzy.demo</groupId>
             <artifactId>hzycloud-api</artifactId>
-            <version>${hzycloud-api.version}</version>
         </dependency>
+        <dependency>
+            <groupId>cn.hzy.demo</groupId>
+            <artifactId>hzycloud-security</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -37,9 +41,14 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-actuator</artifactId>
+        </dependency>
     </dependencies>
 
-    <build>
-
-    </build>
 </project>

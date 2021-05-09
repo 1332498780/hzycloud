@@ -1,0 +1,7 @@
+server:
+  port: 80
+eureka:
+  client:
+    service-url:
+      defaultZone: http://hzy:123@localhost:7001/eureka
+    register-with-eureka: false

@@ -1,0 +1,18 @@
+server:
+  port: 7001
+security:
+  basic:
+    enabled: true
+  user:
+    name: hzy
+    password: 123
+eureka:
+  server:
+    eviction-interval-timer-in-ms: 60000
+  client:
+    service-url:
+      defaultZone: http://hzy:123@localhost:7001/eureka
+    register-with-eureka: false
+    fetch-registry: false
+  instance:
+    hostname: localhost

@@ -1,0 +1,21 @@
+
+server:
+  port: 80
+eureka:
+  client:
+    service-url:
+      defaultZone: http://hzy:123@localhost:7001/eureka
+    register-with-eureka: false
+feign:
+  compression:
+    request:
+      mime-types:
+        - text/xml
+        - application/xml
+        - application/json
+      min-request-size: 2048
+
+
+logging:
+  level:
+    cn.hzy.demo.service: DEBUG

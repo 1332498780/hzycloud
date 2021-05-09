@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hzycloud-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hzycloud-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzycloud-consumer-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzycloud-consumer-resttemplate" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hzycloud-consumer-resttemplate/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hzycloud-consumer-resttemplate/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzycloud-consumer-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hzycloud-consumer-ribbon/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hzycloud-dept-service-8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hzycloud-dept-service-8001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hzycloud-dept-service-8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzycloud-dept-service-8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzycloud-dept-service-8003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzycloud-dept-service-swagger" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hzycloud-dept-service-swagger/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hzycloud-dept-service-swagger/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzycloud-eureka-7001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hzycloud-eureka-7001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hzycloud-eureka-7001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzycloud-security" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hzycloud-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
   </component>

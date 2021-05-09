@@ -11,10 +11,13 @@
   <modules>
     <module>hzycloud-api</module>
     <module>hzycloud-dept-service-8001</module>
+    <module>hzycloud-dept-service-8002</module>
+    <module>hzycloud-dept-service-8003</module>
     <module>hzycloud-dept-service-swagger</module>
     <module>hzycloud-consumer-resttemplate</module>
     <module>hzycloud-consumer-ribbon</module>
-      <module>hzycloud-security</module>
+    <module>hzycloud-consumer-feign</module>
+    <module>hzycloud-security</module>
     <module>hzycloud-eureka-7001</module>
   </modules>
 

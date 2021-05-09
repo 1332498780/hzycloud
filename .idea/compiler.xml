@@ -6,15 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hzycloud-dept-service-8001" />
-        <module name="hzycloudapi" />
-        <module name="hzycloud-consumer-ribbon" />
-        <module name="hzyclouddeptservice8001" />
-        <module name="hzycloud-consumer-resttemplate" />
-        <module name="hzycloud-security" />
-        <module name="hzycloud-eureka-7001" />
         <module name="hzycloud-api" />
+        <module name="hzycloud-consumer-feign" />
+        <module name="hzycloud-consumer-resttemplate" />
+        <module name="hzycloud-consumer-ribbon" />
+        <module name="hzycloud-dept-service-8001" />
+        <module name="hzycloud-dept-service-8002" />
+        <module name="hzycloud-dept-service-8003" />
         <module name="hzycloud-dept-service-swagger" />
+        <module name="hzycloud-eureka-7001" />
+        <module name="hzycloud-security" />
+        <module name="hzycloudapi" />
+        <module name="hzyclouddeptservice8001" />
       </profile>
     </annotationProcessing>
   </component>

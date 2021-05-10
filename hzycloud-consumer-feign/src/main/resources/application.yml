@@ -16,6 +16,7 @@ feign:
       min-request-size: 2048
 
 
+
 logging:
   level:
     cn.hzy.demo.service: DEBUG

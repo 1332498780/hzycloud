@@ -7,6 +7,8 @@ eureka:
       defaultZone: http://hzy:123@localhost:7001/eureka
     register-with-eureka: false
 feign:
+  hytrix:
+    enabled: true
   compression:
     request:
       mime-types:
@@ -14,6 +16,7 @@ feign:
         - application/xml
         - application/json
       min-request-size: 2048
+
 
 
 logging:

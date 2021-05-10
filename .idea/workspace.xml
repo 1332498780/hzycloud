@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91139532-ab6f-4706-aa66-17d0f6b29cfc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hzycloud-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hzycloud-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hzycloud-api/src/main/java/cn/hzy/demo/service/IDeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hzycloud-api/src/main/java/cn/hzy/demo/service/IDeptService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hzycloud-api/src/test/java/cn/hzy/demo/AppTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hzycloud-api/target/classes/cn/hzy/demo/service/IDeptService.class" beforeDir="false" afterPath="$PROJECT_DIR$/hzycloud-api/target/classes/cn/hzy/demo/service/IDeptService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hzycloud-api/target/test-classes/cn/hzy/demo/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hzycloud-consumer-ribbon/src/main/java/cn/hzy/demo/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hzycloud-consumer-ribbon/src/main/java/cn/hzy/demo/RibbonApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hzycloud-consumer-ribbon/src/main/java/cn/hzy/demo/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hzycloud-consumer-ribbon/src/main/java/cn/hzy/demo/controller/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hzycloud-consumer-ribbon/target/classes/cn/hzy/demo/ConsumerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hzycloud-consumer-ribbon/target/classes/cn/hzy/demo/controller/DeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/hzycloud-consumer-ribbon/target/classes/cn/hzy/demo/controller/DeptController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hzycloud-consumer-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hzycloud-consumer-feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hzycloud-consumer-feign/src/main/java/cn/hzy/demo/FeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hzycloud-consumer-feign/src/main/java/cn/hzy/demo/FeignApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hzycloud-consumer-feign/src/main/java/cn/hzy/demo/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hzycloud-consumer-feign/src/main/java/cn/hzy/demo/controller/DeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hzycloud-consumer-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hzycloud-consumer-feign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hzycloud-consumer-feign/target/classes/cn/hzy/demo/FeignApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/hzycloud-consumer-feign/target/classes/cn/hzy/demo/FeignApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hzycloud-consumer-feign/target/classes/cn/hzy/demo/controller/DeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/hzycloud-consumer-feign/target/classes/cn/hzy/demo/controller/DeptController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hzycloud-dept-service-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hzycloud-dept-service-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hzycloud-dept-service-8001/src/main/java/cn/hzy/demo/Service8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/hzycloud-dept-service-8001/src/main/java/cn/hzy/demo/Service8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hzycloud-dept-service-8001/target/classes/cn/hzy/demo/Service8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/hzycloud-dept-service-8001/target/classes/cn/hzy/demo/Service8001.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hzycloud-api/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,12 +38,12 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hzycloud-api/src/main/java/cn/hzy/demo/service/IDeptService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="184">
+              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -52,71 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hzycloud-consumer-feign/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hzycloud-consumer-feign/src/main/java/cn/hzy/demo/config/RestConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hzycloud-api/src/main/java/cn/hzy/demo/config/FeignConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hzycloud-dept-service-8003/src/main/java/cn/hzy/demo/service/IDeptServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="28" column="26" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hzycloud-consumer-feign/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-253">
-              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hzycloud-consumer-feign/src/main/java/cn/hzy/demo/FeignApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="12" column="59" lean-forward="true" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hzycloud-consumer-feign/src/main/java/cn/hzy/demo/config/RibbonLoadBalanceConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="151">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-              <folding>
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-              </folding>
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -124,25 +60,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hzycloud-consumer-feign/src/main/java/cn/hzy/demo/controller/DeptController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+            <state relative-caret-position="71">
+              <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
               <folding>
-                <element signature="e#1136#1137#0" expanded="true" />
-                <element signature="e#1170#1171#0" expanded="true" />
-                <element signature="e#1278#1279#0" expanded="true" />
-                <element signature="e#1312#1313#0" expanded="true" />
-                <element signature="e#1394#1395#0" expanded="true" />
-                <element signature="e#1428#1429#0" expanded="true" />
+                <element signature="e#1274#1275#0" expanded="true" />
+                <element signature="e#1317#1318#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hzycloud-consumer-ribbon/pom.xml">
+        <entry file="jar://D:/programer_software_list/apache-maven-3.3.9/repository/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12-sources.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+            <state relative-caret-position="414">
+              <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hzycloud-api/src/main/java/cn/hzy/demo/service/IDeptServiceFallBack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hzycloud-consumer-feign/src/main/java/cn/hzy/demo/FeignApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hzycloud-consumer-feign/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -174,14 +136,18 @@
         <option value="$PROJECT_DIR$/hzycloud-consumer-ribbon/src/main/java/cn/hzy/demo/RibbonApplication.java" />
         <option value="$PROJECT_DIR$/hzycloud-consumer-ribbon/src/main/java/cn/hzy/demo/controller/DeptController.java" />
         <option value="$PROJECT_DIR$/hzycloud-api/pom.xml" />
-        <option value="$PROJECT_DIR$/hzycloud-consumer-feign/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/hzycloud-consumer-feign/src/main/java/cn/hzy/demo/controller/DeptController.java" />
         <option value="$PROJECT_DIR$/hzycloud-consumer-feign/src/main/java/cn/hzy/demo/config/RibbonLoadBalanceConfig.java" />
+        <option value="$PROJECT_DIR$/hzycloud-api/src/main/java/cn/hzy/demo/config/FeignConfig.java" />
+        <option value="$PROJECT_DIR$/hzycloud-dept-service-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/hzycloud-dept-service-8001/src/main/java/cn/hzy/demo/service/IDeptServiceFallBack.java" />
+        <option value="$PROJECT_DIR$/hzycloud-dept-service-8001/src/main/java/cn/hzy/demo/Service8001.java" />
+        <option value="$PROJECT_DIR$/hzycloud-api/src/main/java/cn/hzy/demo/service/IDeptServiceFallBack.java" />
+        <option value="$PROJECT_DIR$/hzycloud-consumer-feign/src/main/java/cn/hzy/demo/FeignApplication.java" />
+        <option value="$PROJECT_DIR$/hzycloud-consumer-feign/src/main/java/cn/hzy/demo/controller/DeptController.java" />
         <option value="$PROJECT_DIR$/hzycloud-api/src/main/java/cn/hzy/demo/service/IDeptService.java" />
         <option value="$PROJECT_DIR$/hzycloud-consumer-feign/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/hzycloud-api/src/main/java/cn/hzy/demo/config/FeignConfig.java" />
-        <option value="$PROJECT_DIR$/hzycloud-consumer-feign/src/main/java/cn/hzy/demo/FeignApplication.java" />
+        <option value="$PROJECT_DIR$/hzycloud-consumer-feign/pom.xml" />
       </list>
     </option>
   </component>
@@ -208,7 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,16 +215,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hzycloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hzycloud" type="462c0819:PsiDirectoryNode" />
-              <item name="hzycloud-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hzycloud" type="b2602c69:ProjectViewProjectNode" />
@@ -314,16 +269,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hzycloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hzycloud" type="462c0819:PsiDirectoryNode" />
-              <item name="hzycloud-consumer-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -337,30 +282,25 @@
             <path>
               <item name="hzycloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="hzycloud" type="462c0819:PsiDirectoryNode" />
-              <item name="hzycloud-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="hzycloud-dept-service-8001" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hzycloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="hzycloud" type="462c0819:PsiDirectoryNode" />
-              <item name="hzycloud-dept-service-8002" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hzycloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hzycloud" type="462c0819:PsiDirectoryNode" />
-              <item name="hzycloud-dept-service-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="hzycloud-dept-service-8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hzycloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="hzycloud" type="462c0819:PsiDirectoryNode" />
-              <item name="hzycloud-dept-service-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="hzycloud-dept-service-8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hzycloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="hzycloud" type="462c0819:PsiDirectoryNode" />
-              <item name="hzycloud-dept-service-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="hzycloud-dept-service-8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -368,17 +308,26 @@
             <path>
               <item name="hzycloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="hzycloud" type="462c0819:PsiDirectoryNode" />
-              <item name="hzycloud-dept-service-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="hzycloud-dept-service-8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hzycloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hzycloud" type="462c0819:PsiDirectoryNode" />
+              <item name="hzycloud-dept-service-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -396,7 +345,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620579118874" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620662021280" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -404,6 +353,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.hzy.demo.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\project\git_fetch\hzycloud" />
       <recent name="D:\do it\github_fetch\hzycloud" />
@@ -427,7 +379,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.19629057" />
+    <option name="contentProportion" value="0.22565688" />
   </component>
   <component name="RunManager" selected="Spring Boot.FeignApplication">
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -498,10 +450,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.FeignApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Spring Boot.Service8001" />
         <item itemvalue="Spring Boot.Service8002" />
         <item itemvalue="Spring Boot.Service8003" />
-        <item itemvalue="Spring Boot.Service8001 (1)" />
-        <item itemvalue="Spring Boot.EurekaServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -542,34 +494,26 @@
       <workItem from="1620485807253" duration="2813000" />
       <workItem from="1620488705061" duration="980000" />
       <workItem from="1620526779356" duration="24285000" />
-      <workItem from="1620570134168" duration="6769000" />
+      <workItem from="1620570134168" duration="6966000" />
+      <workItem from="1620656058350" duration="5851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6769000" />
+    <option name="totallyTimeSpent" value="12817000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26626325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32903227" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.29516128" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -577,16 +521,25 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32903227" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.26935485" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -643,13 +596,6 @@
     <state x="166" y="86" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1620547489379" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hzycloud-dept-service-8001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hzycloud-dept-service-8002/src/main/java/cn/hzy/demo/dao/DeptRepository.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -662,9 +608,6 @@
           <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hzycloud-dept-service-8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/hzycloud-dept-service-8002/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -715,13 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hzycloud-consumer-ribbon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/programer_software_list/apache-maven-3.3.9/repository/org/springframework/cloud/spring-cloud-netflix-core/1.4.0.RELEASE/spring-cloud-netflix-core-1.4.0.RELEASE.jar!/org/springframework/cloud/netflix/ribbon/RibbonClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -750,71 +686,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hzycloud-consumer-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hzycloud-consumer-ribbon/src/main/java/cn/hzy/demo/controller/DeptController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hzycloud-consumer-feign/src/main/java/cn/hzy/demo/controller/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-          <folding>
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1170#1171#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-            <element signature="e#1312#1313#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1428#1429#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hzycloud-consumer-feign/src/main/java/cn/hzy/demo/config/RibbonLoadBalanceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hzycloud-dept-service-8003/src/main/java/cn/hzy/demo/service/IDeptServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hzycloud-api/src/main/java/cn/hzy/demo/service/IDeptService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hzycloud-consumer-feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -825,22 +700,153 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hzycloud-dept-service-8003/src/main/java/cn/hzy/demo/service/IDeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzycloud-consumer-feign/src/main/java/cn/hzy/demo/config/RibbonLoadBalanceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzycloud-consumer-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzycloud-dept-service-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzycloud-dept-service-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzycloud-dept-service-8001/src/main/java/cn/hzy/demo/service/IDeptServiceFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzycloud-dept-service-8001/src/main/java/cn/hzy/demo/service/IDeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1104">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/programer_software_list/apache-maven-3.3.9/repository/org/springframework/cloud/spring-cloud-commons/1.3.0.RELEASE/spring-cloud-commons-1.3.0.RELEASE.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreaker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/programer_software_list/apache-maven-3.3.9/repository/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/programer_software_list/apache-maven-3.3.9/repository/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12-sources.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hzycloud-api/src/main/java/cn/hzy/demo/config/FeignConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
+        <state relative-caret-position="368">
           <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzycloud-dept-service-8001/src/main/java/cn/hzy/demo/Service8001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzycloud-consumer-feign/src/main/java/cn/hzy/demo/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+          <folding>
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1317#1318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzycloud-api/src/main/java/cn/hzy/demo/service/IDeptServiceFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzycloud-api/src/main/java/cn/hzy/demo/service/IDeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hzycloud-consumer-feign/src/main/java/cn/hzy/demo/FeignApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="12" column="59" lean-forward="true" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+        <state relative-caret-position="207">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzycloud-consumer-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzycloud-consumer-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
         </state>
       </provider>
     </entry>
